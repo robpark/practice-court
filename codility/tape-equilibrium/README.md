@@ -6,19 +6,10 @@ You are given a non-empty array inputArray of N integers.
 
 A split point P (where 0 < P < N) divides the array into:
 
-- left: A[0] … A[P-1]
-- right: A[P] … A[N-1]
+- left: A[0] .. A[P-1]
+- right: A[P] .. A[N-1]
 
 Return the minimal absolute difference between the sum of the left part and the sum of the right part.
-
-## Constraints
-
-Constraints (this is important in Codility)
-
-- N is between 1 and 100,000
-- Values are between -1,000,000 and 1,000,000
-- Expected time complexity: O(N)
-- Expected space complexity: O(N) (or better)
 
 ## Example
 
