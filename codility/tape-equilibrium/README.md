@@ -16,8 +16,8 @@ Return the minimal absolute difference between the sum of the left part and the 
 ```
 A = [3, 1, 2, 4, 3]
 
-P=1 → |3 - (1+2+4+3)|   = 11
-P=2 → |(3+1) - (2+4+3)| = 7
+P=1 → |3 - (1+2+4+3)|   = 7
+P=2 → |(3+1) - (2+4+3)| = 5
 P=3 → |(3+1+2) - (4+3)| = 1  ← minimum
 P=4 → |(3+1+2+4) - 3|   = 7
 

@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Smallest Missing Positive" type="NodeJSConfigurationType" path-to-js-file="runner.js" working-dir="$PROJECT_DIR$/codility/smallest-missing-positive">
+    <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+      <browser with-js-debugger="true" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
