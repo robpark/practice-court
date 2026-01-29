@@ -3,29 +3,29 @@ import {solution} from "./solution.js";
 function runTests() {
     const tests = [
         {
-            name: "example",
-            input: [3, 1, 2, 4, 3],
+            name: "example case",
+            input: [1, 3, 6, 4, 1, 2],
+            expected: 5,
+        },
+        {
+            name: "already contiguous",
+            input: [1, 2, 3],
+            expected: 4,
+        },
+        {
+            name: "all negatives",
+            input: [-1, -3],
             expected: 1,
         },
         {
-            name: "two elements",
-            input: [5, 6],
+            name: "missing one",
+            input: [2, 3, 4],
             expected: 1,
         },
         {
-            name: "all equal",
-            input: [10, 10, 10, 10],
-            expected: 0,
-        },
-        {
-            name: "negatives",
-            input: [-10, -20, -30, -40],
-            expected: 20,
-        },
-        {
-            name: "mixed signs",
-            input: [1000, -1000],
-            expected: 2000,
+            name: "duplicates only",
+            input: [2, 2, 2],
+            expected: 1,
         },
     ];
 
