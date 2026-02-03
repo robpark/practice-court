@@ -1,5 +1,5 @@
 require "rspec"
-require_relative "../solution"
+require_relative "../top_k_frequent"
 
 RSpec.describe "#top_k_frequent" do
   context "basic behavior" do
