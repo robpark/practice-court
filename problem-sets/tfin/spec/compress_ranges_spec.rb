@@ -1,7 +1,8 @@
 require "rspec"
 require_relative "../compress_ranges"
 
-# Given an array of integers, return a string that compresses consecutive runs into ranges, with specific rules about sorting, duplicates, and formatting.
+# Given an array of integers, return a string that compresses consecutive runs into ranges, with specific rules about
+# sorting, duplicates, and formatting.
 RSpec.describe "#compress_ranges" do
   context "basic formatting" do
     it "returns an empty string for empty input" do
