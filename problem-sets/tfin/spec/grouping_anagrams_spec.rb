@@ -1,5 +1,5 @@
 require "rspec"
-require_relative "../solution"
+require_relative "../group_anagrams"
 
 # Goal (implied by specs): group words that are anagrams.
 # Rules:

@@ -1,5 +1,5 @@
 require "rspec"
-require_relative "../solution"
+require_relative "../validate_brackets"
 
 RSpec.describe "#validate_brackets" do
   it "returns true for empty string" do
